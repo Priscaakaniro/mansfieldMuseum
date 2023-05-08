@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!--Making a favicon for my browser-->
+    <link rel="icon" type="image/x-icon" href="./images/android-chrome-192x192.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="web.js"></script>
+    <title>PAINTING</title>
+</head>
+<body>
+    <header> 
+        <ul>
+        <a href="home.html"><h5> Home</h5></a>
+        <a href="sculptures.html"><h5> Sculptures</h5></a>
+        <a href="drawing.html"><h5> Drawing</h5></a>
+        <a href="painting.html"><h5> Painting</h5></a>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="./images/painting1.jpg" style="width:100%"></div>
+              <div class="swiper-slide"><img src="./images/painting2.jpg" style="width:100%; margin-top: 150px;"></div>
+              <div class="swiper-slide"><img src="./images/painting3.jpg" style="width:100%"></div>
+              <div class="swiper-slide"><img src="./images/painting4.jpg" style="width:100%"></div>
+              <div class="swiper-slide"><img src="./images/painting5.jpg" style="width:100%"></div>
+              <div class="swiper-slide"><img src="./images/painting6.jpg" style="width:100%;margin-top: 20px;"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay:3000,
+            disableOnInteraction: false,
+        },
+        loop: true,
+      
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });</script>
+            <div class="loremtext"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra ullamcorper dignissim.
+                Curabitur sit amet velit sed nunc pulvinar accumsan. Donec eu varius magna. Phasellus nec lorem sed augue sagittis dictum.
+               Pellentesque fringilla, felis eget eleifend imperdiet, eros velit fermentum sapien, non dapibus ante eros eget justo. 
+               Proin eu libero placerat, consequat ex vitae, interdum ligula. Aliquam vitae lacinia lorem, in placerat risus. Cras ullamcorper
+                volutpat mattis.</p></div>
+                <div class="sculptvid">
+                    <video autoplay muted loop width="350" height="300px" controls>
+                        <source src="./videos/avocado.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+            </div>
+        
+            <div class="vidtext"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra ullamcorper dignissim.
+                Curabitur sit amet velit sed nunc pulvinar accumsan. Donec eu varius magna. Phasellus nec lorem sed augue sagittis dictum.
+               Pellentesque fringilla, felis eget eleifend imperdiet, eros velit fermentum sapien, non dapibus ante eros eget justo. 
+               Proin eu libero placerat, consequat ex vitae, interdum ligula. Aliquam vitae lacinia lorem, in placerat risus. Cras ullamcorper
+                volutpat mattis.</p></div>
+        
+            <div class="sculptvid1">
+                    <video autoplay muted loop width="350" height="300px" controls>
+                        <source src="./videos/pineapples.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+            </div>
+        
+            <div class="vidtext1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra ullamcorper dignissim.
+                Curabitur sit amet velit sed nunc pulvinar accumsan. Donec eu varius magna. Phasellus nec lorem sed augue sagittis dictum.
+               Pellentesque fringilla, felis eget eleifend imperdiet, eros velit fermentum sapien, non dapibus ante eros eget justo. 
+               Proin eu libero placerat, consequat ex vitae, interdum ligula. Aliquam vitae lacinia lorem, in placerat risus. Cras ullamcorper
+                volutpat mattis.</p></div>
+    <footer>
+        <p class="name"><a href="https://www.mansfield.gov.uk/museum/" target="_blank"> ©️ Mansfield Museum</p></a>
+     </footer>
+</body>
+</html>
